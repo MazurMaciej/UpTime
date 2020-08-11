@@ -1,0 +1,118 @@
+@import './../../scss/';
+
+.userPage {
+	padding-bottom: 130px;
+	background-color: $perle-white;
+
+	&__chart {
+		max-width: 100%;
+		padding: 10px;
+		background-color: $white;
+		box-shadow: $shadow;
+		margin-bottom: 40px;
+	}
+
+	&__table {
+		box-shadow: $shadow;
+	}
+
+	&__backButton {
+		color: $dark-grey;
+		font-size: 12px;
+		font-weight: 300;
+		border-bottom: 1px solid $aqua;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		text-decoration: none;
+		width: 80px;
+		transition: .5s;
+
+		& span {
+			padding-right: 5px;
+
+			& svg {
+				transition: .5s;
+				border-radius: 50%;
+			}
+		}
+
+		&:hover {
+			color: $aqua;
+
+			& .arrowBack {
+				fill: $aqua;
+			}
+		}
+	}
+
+	&__companyBox {
+		align-items: center;
+		display: flex;
+		margin-top: 10px;
+		padding: 28px 0 43px 0;
+
+		&-logo {
+			height: 81px;
+			padding-right: 18px;
+			width: 81px;
+		}
+
+		&-title {
+			color: $black;
+			font-size: 25px;
+			font-weight: 300;
+		}
+	}
+
+	&__scope {
+		display: flex;
+		justify-content: space-between;
+		&-box {
+			align-items: center;
+			display: flex;
+			justify-content: flex-end;
+			padding-bottom: 15px;
+
+			& span {
+				@include breakpoint(mobileonly) {
+					display: none;
+				}
+			}
+		}
+
+		&-title {
+			color: $aqua;
+			font-size: 14px;
+			font-weight: 300;
+			padding-left: 6px;
+			@include breakpoint(mobilesmall) {
+				font-size: 10px;
+			}
+		}
+
+		&-button {
+			color: $black;
+			font-size: 14px;
+			font-weight: 300;
+			padding-left: 22px;
+			transition: .5s;
+			
+
+			@include breakpoint(newMobile) {
+				padding-left: 10px;
+			}
+
+			@include breakpoint(mobilesmall) {
+				font-size: 10px;
+			}
+			&.filtered {
+				font-weight: 500;
+			}
+		}
+	}
+}
+
+.arrowBack {
+	transition: .5s;
+}

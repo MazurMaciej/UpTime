@@ -1,0 +1,21 @@
+* {
+	::selection {
+		background: #d5f4f4;
+	}
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 800px;
+	padding: 0 30px;
+
+	@include breakpoint(mobileonly) {
+		padding: 0 10px;
+	}
+}
+
+.error {
+	font-size: 20px;
+	padding-bottom: 50px;
+	padding-top: 30px;
+}

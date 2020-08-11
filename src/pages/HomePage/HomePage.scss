@@ -1,0 +1,19 @@
+@import '../../scss/';
+
+.homePage {
+	background-color: $perle-white;
+	padding-bottom: 65px;
+
+	&__title {
+		color: $dark-grey;
+		font-size: 20px;
+		font-weight: 300;
+		padding: 30px 0 48px 0;
+	}
+
+	&__wrapper {
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+	}
+}

@@ -1,0 +1,60 @@
+@import './../../scss/';
+
+.companyCard {
+	align-items: center;
+	background-color: $white;
+	border-radius: 55px;
+	box-shadow: $shadow;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 14px;
+	transition: 1s;
+	width: 100%;
+
+	&__box {
+		align-items: center;
+		display: flex;
+		padding: 16px 0;
+	}
+
+	&__logo {
+		height: 41px;
+		padding: 0 55px 0 33px;
+		width: 41px;
+		@include breakpoint(mobilesmall) {
+			padding: 0 25px 0 20px;
+		}
+	}
+
+	&__name {
+		color: $dark-grey;
+		font-size: 18px;
+		font-weight: 300;
+		line-height: 27px;
+	}
+
+	&__button {
+		align-items: center;
+		background: linear-gradient(180deg, $elements-gradient-start, $elements-gradient-end);
+		border-radius: 55px;
+		box-shadow: $shadow;
+		cursor: pointer;
+		display: flex;
+		height: 40px;
+		justify-content: center;
+		margin-right: 15px;
+		transition: 1s;
+		width: 80px;
+
+		&:hover {
+			box-shadow: 0 0 10px $aqua;
+		}
+
+		& svg {
+			transform: translate(1px, 2px);
+		}
+		@include breakpoint(mobilesmall) {
+			width: 60px;
+		}
+	}
+}

@@ -20,4 +20,3 @@
 - scss fonts,
 - Additionally, I recommend add one more file with mixins typography and font-size with 'rem'. It will be less code, and the application will be more flexible to resize on other devices. 
 5. To display a chart I used chartJS and React Chart JS2. 
-# UpTime

@@ -1,0 +1,22 @@
+@import './../../scss/';
+
+.header {
+	background: linear-gradient(180deg, $gradient-start, $gradient-end);
+	height: 63px;
+	margin-bottom: 45px;
+	width: 100%;
+
+	&__logo {
+		height: 63px;
+		width: 238px;
+		border-radius: 40px 0 40px 0;
+		background: linear-gradient(180deg, $elements-gradient-start, $elements-gradient-end);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		& svg {
+			padding: 25px 70px;
+		}
+	}
+}
