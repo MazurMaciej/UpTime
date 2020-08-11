@@ -22,6 +22,9 @@
 		&:last-child {
 			border-right: none;
 		}
+		@include breakpoint(newMobile) {
+			font-size: 10px;
+		}
 
 		@include breakpoint(mobilesmall) {
 			font-size: 9px;
