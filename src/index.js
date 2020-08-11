@@ -13,8 +13,8 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <Route exact path="/uptime" component={HomePage} />
-        <Route exact path="/uptime/:id" component={UserPage} />
+        <Route exact path="/" component={HomePage} />
+        <Route exact path="/:id" component={UserPage} />
       </BrowserRouter>
     </Provider>
   </React.StrictMode>,
