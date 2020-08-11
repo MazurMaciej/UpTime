@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/uptime/static/css/main.1d079b49.chunk.css",
-    "main.js": "/uptime/static/js/main.72d86310.chunk.js",
-    "main.js.map": "/uptime/static/js/main.72d86310.chunk.js.map",
-    "runtime-main.js": "/uptime/static/js/runtime-main.becfd1b5.js",
-    "runtime-main.js.map": "/uptime/static/js/runtime-main.becfd1b5.js.map",
-    "static/js/2.ebf5eb24.chunk.js": "/uptime/static/js/2.ebf5eb24.chunk.js",
-    "static/js/2.ebf5eb24.chunk.js.map": "/uptime/static/js/2.ebf5eb24.chunk.js.map",
-    "index.html": "/uptime/index.html",
-    "precache-manifest.7ba4989a53b3a7bcfcd3e5b82fe1f3ab.js": "/uptime/precache-manifest.7ba4989a53b3a7bcfcd3e5b82fe1f3ab.js",
-    "service-worker.js": "/uptime/service-worker.js",
-    "static/css/main.1d079b49.chunk.css.map": "/uptime/static/css/main.1d079b49.chunk.css.map",
-    "static/js/2.ebf5eb24.chunk.js.LICENSE.txt": "/uptime/static/js/2.ebf5eb24.chunk.js.LICENSE.txt",
-    "static/media/preloader.gif": "/uptime/static/media/preloader.cf804e29.gif"
+    "main.css": "/uptimeapp/static/css/main.1d079b49.chunk.css",
+    "main.js": "/uptimeapp/static/js/main.3ea6aa73.chunk.js",
+    "main.js.map": "/uptimeapp/static/js/main.3ea6aa73.chunk.js.map",
+    "runtime-main.js": "/uptimeapp/static/js/runtime-main.76031de0.js",
+    "runtime-main.js.map": "/uptimeapp/static/js/runtime-main.76031de0.js.map",
+    "static/js/2.f46722b9.chunk.js": "/uptimeapp/static/js/2.f46722b9.chunk.js",
+    "static/js/2.f46722b9.chunk.js.map": "/uptimeapp/static/js/2.f46722b9.chunk.js.map",
+    "index.html": "/uptimeapp/index.html",
+    "precache-manifest.d7d904379f95a483815f660904e6cfb9.js": "/uptimeapp/precache-manifest.d7d904379f95a483815f660904e6cfb9.js",
+    "service-worker.js": "/uptimeapp/service-worker.js",
+    "static/css/main.1d079b49.chunk.css.map": "/uptimeapp/static/css/main.1d079b49.chunk.css.map",
+    "static/js/2.f46722b9.chunk.js.LICENSE.txt": "/uptimeapp/static/js/2.f46722b9.chunk.js.LICENSE.txt",
+    "static/media/preloader.gif": "/uptimeapp/static/media/preloader.cf804e29.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.becfd1b5.js",
-    "static/js/2.ebf5eb24.chunk.js",
+    "static/js/runtime-main.76031de0.js",
+    "static/js/2.f46722b9.chunk.js",
     "static/css/main.1d079b49.chunk.css",
-    "static/js/main.72d86310.chunk.js"
+    "static/js/main.3ea6aa73.chunk.js"
   ]
 }
